@@ -96,4 +96,5 @@ func Copy(s *Settings) {
 
 	wg.Wait()
 	close(progressChan)
+	fmt.Println("")
 }
